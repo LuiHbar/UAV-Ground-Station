@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    // 其他选项...
+  },
+  "include": [
+    "src",
+    "types" // 假设声明文件存放在 types 目录下
+  ]
+}
