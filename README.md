@@ -9,11 +9,11 @@
 
 ## 使用方法
 
-###
+本项目分成客户端和服务端，通过 WebSocket 进行通信。客户端使用 vue2+element-ui，以及分别使用 three.js 和 export-to-csv 和 echart 模块实现各个页面的功能
 
-## client
+### client
 
-### Project setup
+#### Project setup
 
 ```
 yarn install
@@ -41,17 +41,17 @@ yarn lint
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-## server
+### server
 
-### 依赖安装
+#### 依赖安装
 
 `npm install`
 
-### 启动后台
+#### 启动后台
 
 `node index`或者 `npm run dev`
 
-### 开发过程用到的模块
+#### 开发过程用到的模块
 
 `serialport`、 `nodemon`、`ws`
 
@@ -63,6 +63,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   },
 ```
 
-### node 版本
+#### node 版本
 
 v20.12.1
